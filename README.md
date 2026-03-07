@@ -78,3 +78,17 @@ A lightweight **OpenGL particle system and shader playground** built for experim
 - 🔍 Camera zoom & emitter movement
 - ⚡ Real-time shader testing
 - 🧪 Beginner-friendly graphics programming playground
+
+
+### <a href="https://github.com/imdebabratanath/NotePad"> NotePad (Qt / C++) </a>
+
+
+A lightweight **Notepad-style text editor** built with **Qt and C++**, designed to demonstrate basic GUI application development.
+
+**Highlights**
+- 📄 Create, open, and save text files
+- ✏️ Basic text editing
+- 📋 Copy, cut, and paste support
+- 🔍 Simple and clean UI using Qt widgets
+- ⌨️ Keyboard shortcuts
+- ⚡ Fast and minimal desktop editor
