@@ -7,10 +7,10 @@
 // COPYRIGHT YEAR (Dynamic)
 // ======================================
 function updateCopyrightYear() {
-  const copyrightElement = document.getElementById('copyright');
-  if (copyrightElement) {
+  const yearSpan = document.getElementById('year');
+  if (yearSpan) {
     const currentYear = new Date().getFullYear();
-    copyrightElement.textContent = `© ${currentYear}`;
+    yearSpan.textContent = currentYear;
   }
 }
 
@@ -55,6 +55,19 @@ function randomNavbarGradient() {
 }
 
 // ======================================
+// RANDOM RAINBOW FOOTER BORDER
+// ======================================
+function randomFooterGradient() {
+  const colors = generateRandomRainbow();
+  
+  const footer = document.querySelector('.footer-rainbow');
+  if (footer) {
+    footer.style.borderTop = '4px solid';
+    footer.style.borderImage = `linear-gradient(90deg, ${colors.join(', ')}) 1`;
+  }
+}
+
+// ======================================
 // SMOOTH SCROLL FOR ANCHOR LINKS
 // ======================================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -76,17 +89,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.addEventListener('DOMContentLoaded', () => {
   updateCopyrightYear();
   randomNavbarGradient();
+  randomFooterGradient();
   randomHighlightGradient();
 });
 
-// Optional: randomize every 5 seconds (each will have different pattern)
-// setInterval(() => {
-//   randomNavbarGradient();
-// }, 5000);
+// ======================================
+// CONTINUOUS RAINBOW ANIMATION
+// ======================================
+// Randomize navbar and footer every 5 seconds
+setInterval(() => {
+  randomNavbarGradient();
+  randomFooterGradient();
+}, 5000);
 
-
-
-// Mobile Menu Toggle
+// ======================================
+// MOBILE MENU TOGGLE
+// ======================================
 document.addEventListener('DOMContentLoaded', function() {
   const menuBtn = document.querySelector('.mobile-menu-btn');
   const navLinks = document.querySelector('.nav-links');
