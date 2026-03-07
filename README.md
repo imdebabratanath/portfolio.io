@@ -41,4 +41,28 @@ Switch between **gradient**, **Mandelbrot**, **Julia**, and **plasma shaders** w
 ---
 
 
+# Mineblk
+
+**Mineblk** is a Minecraft-inspired procedural terrain generator built with **C++ and OpenGL**.  
+It generates worlds and supports customizable **biomes**.
+
+## Features
+- Procedural voxel terrain generation
+- Multiple biome types
+- Change biomes dynamically
+- Chunk-based world system
+- OpenGL rendering
+- Noise-based heightmap generation
+
+## Technologies
+- C++
+- OpenGL
+- GLFW
+- GLAD
+
+## Build
+Requirements:
+- C++17+
+- OpenGL 3.3+
+- GLFW, GLAD
 
