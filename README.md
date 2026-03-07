@@ -41,7 +41,7 @@ Switch between **gradient**, **Mandelbrot**, **Julia**, and **plasma shaders** w
 ---
 
 
-# [Mineblk][https://github.com/imdebabratanath/MineBlk]
+# <a href="https://github.com/imdebabratanath/MineBlk" target="_blank">Mineblk Repository</a>
 
 **Mineblk** is a Minecraft-inspired procedural terrain generator built with **C++ and OpenGL**.  
 It generates worlds and supports customizable **biomes**.
