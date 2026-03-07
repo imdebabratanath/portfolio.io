@@ -4,7 +4,7 @@ This repo contains three of my main projects showcasing graphics programming.
 
 ---
 
-## ## <a href="https://github.com/imdebabratanath/Kuber" target="_blank">Kube (C++ / GLFW)</a>
+## <a href="https://github.com/imdebabratanath/Kuber" target="_blank">Kube (C++ / GLFW)</a>
 
 A modern OpenGL 3.3 project that renders a colorful rotating 3D cube.
 
