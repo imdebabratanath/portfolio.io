@@ -1,6 +1,5 @@
 #  My Projects Portfolio
 
-Welcome to my GitHub repository!  
 This repo contains three of my main projects showcasing graphics programming.
 
 ---
