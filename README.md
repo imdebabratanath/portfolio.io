@@ -66,3 +66,15 @@ Requirements:
 - OpenGL 3.3+
 - GLFW, GLAD
 
+### <a href="https://github.com/imdebabratanath/SnowFlake" target="_blank">❄️ SnowFlake — Particle & Shader Playground </a>
+ 
+
+A lightweight **OpenGL particle system and shader playground** built for experimenting with real-time graphics techniques.
+
+**Highlights**
+- ✨ Particle effects — *fire, smoke, rain*
+- 🎨 Shader experiments — *color effects, gradients, plasma*
+- 🎮 Interactive controls — *keyboard + mouse*
+- 🔍 Camera zoom & emitter movement
+- ⚡ Real-time shader testing
+- 🧪 Beginner-friendly graphics programming playground
