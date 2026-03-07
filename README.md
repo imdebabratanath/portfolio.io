@@ -16,7 +16,7 @@ A modern OpenGL 3.3 project that renders a colorful rotating 3D cube.
 - Smooth X/Y axis rotation
 
 
-##  SPlayGround (C++ / OpenGL / GLAD)
+## <a href="https://github.com/imdebabratanath/SPlayGround" target="_blank">SPlayGround (C++ / OpenGL / GLAD)</a> SPlayGround (C++ / OpenGL / GLAD)
 
 A real-time shader exploration tool built in **C++** and **OpenGL (Core Profile)**.  
 Switch between **gradient**, **Mandelbrot**, **Julia**, and **plasma shaders** with interactive controls.
