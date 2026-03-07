@@ -60,12 +60,6 @@ It generates worlds and supports customizable **biomes**.
 - GLFW
 - GLAD
 
-## Build
-Requirements:
-- C++17+
-- OpenGL 3.3+
-- GLFW, GLAD
-
 ### <a href="https://github.com/imdebabratanath/SnowFlake" target="_blank">❄️ SnowFlake — Particle & Shader Playground </a>
  
 
